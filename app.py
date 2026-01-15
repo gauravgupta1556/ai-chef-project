@@ -232,7 +232,7 @@ st.markdown(f"""
 # Sidebar
 with st.sidebar:
     st.markdown(f"<h1 style='color:{COLOR_ACCENT} !important;'>🍳 AI Chef</h1>", unsafe_allow_html=True)
-    st.markdown("Deep Forest Edition.")
+    st.markdown("Enter your ingredients.")
     
     try:
         with st.spinner("Waking up the AI..."):
@@ -377,3 +377,4 @@ st.markdown(f"""
         <p>© 2026 AI Chef Project. All Rights Reserved.</p>
     </div>
 """, unsafe_allow_html=True)
+
